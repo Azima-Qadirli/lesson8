@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: forestgreen;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: forestgreen;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 10px;
+    animation: box 4s infinite ;
+  }
+  
+  @keyframes box{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

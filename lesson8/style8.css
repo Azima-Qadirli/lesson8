@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p:hover{
+  background-color:blueviolet;
+}

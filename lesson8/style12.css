@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 30px;
+    animation-name:box;
+    animation-duration: 4s;
+}
+@keyframes box{
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: purple;
+    }
+    75%{
+        background-color: green;
+    }
+    100%{
+        background-color: brown;
+    }
+}

@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition:width 3s ;
+    transition-delay: 1s;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: width 3s;
+}
+div:hover{
+    width: 300px;
+}

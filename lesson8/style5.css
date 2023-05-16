@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: forestgreen;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.main{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+}
+.p1{
+    position: absolute;
+    left: 1000px;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+.p2{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+    animation-name: second;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+.p3{
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    animation-name: third;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.p4{
+    position: absolute;
+    left: 1000px;
+    top: 170px;
+    animation-name: fourth;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes first{
+    from{
+        left: 0px;
+    }
+    to{
+     right: 0px;
+    }
+}
+@keyframes second{
+    from{
+        left: 0px;
+    }
+    to{
+     right: 0px;
+    }
+}
+@keyframes third{
+    from{
+        left: 0px;
+    }
+    to{
+     right: 0px;
+    }
+}
+@keyframes fourth{
+    from{
+        left: 0px;
+    }
+    to{
+     right: 0px;
+    }
+}

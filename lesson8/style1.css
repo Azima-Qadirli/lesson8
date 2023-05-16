@@ -1,0 +1,58 @@
+p{
+    width: 800px;
+}
+.box1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    margin:0px 500px;
+    animation:box1 8s linear;
+    animation-iteration-count: infinite;
+}
+.box2{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    animation:box2 7s linear;
+    animation-iteration-count: infinite;
+}
+.box3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    animation:box3 6s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes box1{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
+@keyframes box2{
+    from{
+       transform: rotate(15deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+@keyframes box3{
+    from{
+       transform: rotate(30deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}

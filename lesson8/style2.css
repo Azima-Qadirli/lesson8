@@ -1,0 +1,33 @@
+p{
+    width: 800px;
+}
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: box;
+    animation-duration: 8s;
+    position: absolute;
+}
+@keyframes box{
+    0%   { 
+        left:0px; 
+        top:0px;
+    }
+    25%  { 
+        left:200px; 
+        top:0px;
+    }
+    50%  { 
+        left:200px;
+         top:200px;
+        }
+    75%  { 
+        left:0px; 
+        top:200px;
+    }
+    100% { 
+        left:0px;
+        top:0px;
+    }
+}

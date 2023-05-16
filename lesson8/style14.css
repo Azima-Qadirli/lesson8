@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ .container1 div{
+    width: 40px;
+    height: 100px;
+    animation-name: loading1;
+    margin-right: 30px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: mediumseagreen;
+    animation-delay: calc(0.1s*var(--i));
+}
+@keyframes loading1{
+    0%{
+    height: 100px;
+    }
+    50%{
+    height: 200px;
+    }
+    100%{
+    height: 100px;
+    }
+}
+.container2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container2 div{
+    width: 40px;
+    height: 100px;
+    animation-name: loading2;
+    margin-right: 30px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    animation-delay: calc(0.1s*var(--i));
+}
+@keyframes loading2{
+    0%{
+    height: 100px;
+    }
+    50%{
+    height: 200px;
+    }
+    100%{
+    height: 100px;
+    }
+}
+
